@@ -73,7 +73,24 @@ article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    
+    color: white;
+}
+
+article section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+}
+
+article section img {
+    max-height: 200px;
+}
+
+article section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 aside {
@@ -85,40 +102,22 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-aside div {
-    margin-bottom: 32px;
     color: white;
 }
 
-aside div h3 {
+aside section {
+    margin-bottom: 32px;
+}
+
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside div img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-section img {
-    max-height: 200px;
-}
-
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
