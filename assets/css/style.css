@@ -21,7 +21,7 @@ header h1 {
 }
 
 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /*changes the color of seo alone within h1*/
 }
 
 header nav {
@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero /*Main header image*/ {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,6 +59,7 @@ p {
     background-position: center;
 }
 
+/*The float-left and float-right classes connect to the images for the articles, allowing them to alternate sides going down the page*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,7 +69,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*Everything under article covers all three of the main topics, Search Enginr Optimization, Online Reputation Management and Social Media Marketing.*/
 article {
     width: 75%;
     display: inline-block;
@@ -92,7 +93,7 @@ article section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Everything under aside covers all three of the add-on information blocks, Lead Generation, Brand Awarness and Cost management.*/
 aside {
     margin-right: 20px;
     padding: 20px;
